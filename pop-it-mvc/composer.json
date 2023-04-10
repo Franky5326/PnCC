@@ -1,0 +1,23 @@
+{
+    "name": "franky5326/pncc",
+    "description": "gg",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gr404nidal"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+
+}
