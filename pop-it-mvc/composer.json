@@ -5,14 +5,16 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "gr404nidal"
+            "name": "gr404nidal",
+            "email": "franky5326@yandex.ru"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4 | ^8.0",
         "illuminate/database": "10.x-dev",
-        "illuminate/events": "10.x-dev"
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "^2.0@dev"
     },
     "autoload": {
         "psr-4": {
@@ -20,6 +22,4 @@
             "": "app/"
         }
     }
-
-
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5b7a396b09b0ba0c8a39d5f99bc4c8c",
+    "content-hash": "c1a148707d45db58a932e5e291250a63",
     "packages": [
         {
             "name": "brick/math",
@@ -411,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "0acee14323c61e37fb588a0d4bfc9a270cea32cb"
+                "reference": "052b3e0e85f997ea0a5f6087bdd8594528355203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/0acee14323c61e37fb588a0d4bfc9a270cea32cb",
-                "reference": "0acee14323c61e37fb588a0d4bfc9a270cea32cb",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/052b3e0e85f997ea0a5f6087bdd8594528355203",
+                "reference": "052b3e0e85f997ea0a5f6087bdd8594528355203",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +472,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-04-10T17:46:00+00:00"
+            "time": "2023-04-11T19:18:22+00:00"
         },
         {
             "name": "illuminate/events",
@@ -629,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "0ae4d2e6eef4c7202a64cacc24d8e86c67112fc3"
+                "reference": "0ecc70c5bfbf199c4a973553ddc42531e1406a3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/0ae4d2e6eef4c7202a64cacc24d8e86c67112fc3",
-                "reference": "0ae4d2e6eef4c7202a64cacc24d8e86c67112fc3",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0ecc70c5bfbf199c4a973553ddc42531e1406a3b",
+                "reference": "0ecc70c5bfbf199c4a973553ddc42531e1406a3b",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +692,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-04-07T13:47:09+00:00"
+            "time": "2023-04-11T17:07:07+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -796,6 +796,72 @@
                 }
             ],
             "time": "2023-02-25T13:14:29+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "34128a32009e1b41c4615bcd7d4c39968931e9ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/34128a32009e1b41c4615bcd7d4c39968931e9ea",
+                "reference": "34128a32009e1b41c4615bcd7d4c39968931e9ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9.0",
+                "phpbench/phpbench": "^1.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-deprecation-rules": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "ext-apcu": "To be able to use APCu cache driver"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/nikic/FastRoute/issues",
+                "source": "https://github.com/nikic/FastRoute/tree/master"
+            },
+            "time": "2023-03-16T08:06:25+00:00"
         },
         {
             "name": "psr/container",
@@ -1331,7 +1397,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "illuminate/database": 20,
+        "illuminate/events": 20,
+        "nikic/fast-route": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -3,7 +3,7 @@
         'name' => 'franky5326/pncc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ff50ac64b7435d20dd9fcbadefe0de83d0124b86',
+        'reference' => 'c3a46f0d758caf05e4bf7d179f6435e065201d54',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'franky5326/pncc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ff50ac64b7435d20dd9fcbadefe0de83d0124b86',
+            'reference' => 'c3a46f0d758caf05e4bf7d179f6435e065201d54',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -85,7 +85,7 @@
         'illuminate/database' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => '0acee14323c61e37fb588a0d4bfc9a270cea32cb',
+            'reference' => '052b3e0e85f997ea0a5f6087bdd8594528355203',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/database',
             'aliases' => array(),
@@ -121,7 +121,7 @@
         'illuminate/support' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => '0ae4d2e6eef4c7202a64cacc24d8e86c67112fc3',
+            'reference' => '0ecc70c5bfbf199c4a973553ddc42531e1406a3b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/support',
             'aliases' => array(),
@@ -135,6 +135,17 @@
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(
                 0 => '2.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '34128a32009e1b41c4615bcd7d4c39968931e9ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(
+                0 => '2.0.x-dev',
             ),
             'dev_requirement' => false,
         ),
